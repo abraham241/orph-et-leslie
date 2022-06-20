@@ -1,0 +1,79 @@
+/* *, ::before, ::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+
+#entete{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+body{
+    padding-top: 90px;
+}
+
+.liste ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.liste ul li{
+    width: 100px;
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.liste a{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.liste a:hover{
+    color: rgb(2, 133, 255) ;
+}
+
+#sect1{
+    height: 780px;
+    text-align: center;
+}
+
+.orphée{
+    display: flex;
+    justify-content: space-around;
+}
+
+#sect2{
+    height: 710px;
+}
+
+.ass{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+
+.sec4{
+    height: 250px;
+    text-align: center;
+}
+
+#foot{
+    height: 200px;
+    background-color: rgb(2, 133, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo1{
+    position: relative;
+    top: 10px;
+}

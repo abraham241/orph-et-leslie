@@ -1,0 +1,176 @@
+#entete{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+body{
+    padding-top: 90px;
+}
+
+.liste ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.liste ul li{
+    width: 100px;
+    list-style-type: none;
+}
+
+.liste a{
+    text-decoration: none;
+    color: black;
+}
+
+.liste a:hover{
+    color: rgb(2, 133, 255) ;
+}
+
+.sec1{
+    height: 300px;
+    overflow: hidden;
+
+}
+
+#caroussele{
+    display: flex;
+    animation-duration: 5s;
+    animation-name: mesimages;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes mesimages{
+        0%{
+            transform: translateX(0)
+        }
+
+        25%{
+            transform: translateX(-100px)
+        }
+
+        50%{
+            transform: translateX(-200px)
+        }
+
+        75%{
+            transform: translateX(-300px)
+        }
+
+        100%{
+            transform: translateX(0)
+        }
+    }
+
+
+#sec2{
+    height: 420px;
+    background-color: rgb(10, 248, 248);
+    display: flex;
+    justify-content: space-around;
+}
+
+#homme{
+    position: relative;
+    top: 30px;
+}
+
+#femme{
+    position: relative;
+    top: 30px;
+}
+
+#enfant{
+    position: relative;
+    top: 30px;
+}
+
+.btnh{
+    height: 45px;
+    width: 100px;
+    background-color: rgb(76, 153, 24);
+    color: aliceblue;
+    border-radius: 30%;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 55px;
+    right: 150px;
+}
+
+.btnf{
+    height: 45px;
+    width: 100px;
+    background-color: rgb(76, 153, 24);
+    color: aliceblue;
+    border-radius: 30%;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 55px;
+    right: 150px;
+}
+
+.btne{
+    height: 45px;
+    width: 100px;
+    background-color: rgb(76, 153, 24);
+    color: aliceblue;
+    border-radius: 30%;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 55px;
+    right: 150px;
+}
+
+#sec3{
+    height: 400px;
+    text-align: center;
+}
+
+#caroussele1{
+    display: flex;
+    animation-duration: 5s;
+    animation-name: mesimages;
+    animation-iteration-count: infinite;
+}
+
+
+#conseil h1 {
+    text-align: center;
+    
+}
+
+#video{
+    height: 480px;
+    width: 580px;
+    background-color: rgb(206, 36, 36);
+}
+
+#global{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.sec4{
+    height: 250px;
+    text-align: center;
+}
+
+#foot{
+    height: 200px;
+    background-color: rgb(2, 133, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo1{
+    position: relative;
+    top: 10px;
+}
