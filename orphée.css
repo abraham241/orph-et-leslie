@@ -12,6 +12,10 @@ body{
     padding-top: 90px;
 }
 
+body h1{
+    color: rgb(2, 133, 255) ;
+}
+
 .liste ul {
     display: flex;
     justify-content: space-between;
@@ -69,7 +73,7 @@ body{
 
 #sec2{
     height: 420px;
-    background-color: rgb(10, 248, 248);
+    background-color: rgb(131, 195, 247);
     display: flex;
     justify-content: space-around;
 }
@@ -168,6 +172,21 @@ body{
     background-color: rgb(2, 133, 255);
     display: flex;
     justify-content: space-around;
+}
+
+#foot ul li a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   line-height: 28px;
+}
+
+#foot ul li{
+    list-style-type: none;
+    color: #fff;
+}
+
+.trois{
+    text-align: right;
 }
 
 .logo1{

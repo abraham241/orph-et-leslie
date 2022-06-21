@@ -1,0 +1,63 @@
+#entete{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+body{
+    padding-top: 90px;
+}
+
+body h1{
+    color: rgb(2, 133, 255) ;
+}
+
+.liste ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.liste ul li{
+    width: 100px;
+    list-style-type: none;
+}
+
+.liste a{
+    text-decoration: none;
+    color: black;
+}
+
+.liste a:hover{
+    color: rgb(2, 133, 255) ;
+}
+
+#foot{
+    height: 200px;
+    background-color: rgb(2, 133, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+#foot ul li a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   line-height: 28px;
+}
+
+#foot ul li{
+    list-style-type: none;
+    color: #fff;
+}
+
+.trois{
+    text-align: right;
+}
+
+.logo1{
+    position: relative;
+    top: 10px;
+}
