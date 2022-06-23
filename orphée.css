@@ -76,21 +76,25 @@ body h1{
     background-color: rgb(131, 195, 247);
     display: flex;
     justify-content: space-around;
+    
 }
 
 #homme{
     position: relative;
     top: 30px;
+    left: 15px;
 }
 
 #femme{
     position: relative;
     top: 30px;
+    left: 50px;
 }
 
 #enfant{
     position: relative;
     top: 30px;
+    left: 80px;
 }
 
 .btnh{
@@ -98,7 +102,8 @@ body h1{
     width: 100px;
     background-color: rgb(76, 153, 24);
     color: aliceblue;
-    border-radius: 30%;
+    border-radius: 30px;
+    border-top-left-radius: 30px;
     border: none;
     cursor: pointer;
     position: relative;
@@ -111,7 +116,8 @@ body h1{
     width: 100px;
     background-color: rgb(76, 153, 24);
     color: aliceblue;
-    border-radius: 30%;
+    border-radius: 30px;
+    border-top-left-radius: 30px;
     border: none;
     cursor: pointer;
     position: relative;
@@ -124,7 +130,8 @@ body h1{
     width: 100px;
     background-color: rgb(76, 153, 24);
     color: aliceblue;
-    border-radius: 30%;
+    border-radius: 30px;
+    border-top-left-radius: 30px;
     border: none;
     cursor: pointer;
     position: relative;
